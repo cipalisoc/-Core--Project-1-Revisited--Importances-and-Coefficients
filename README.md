@@ -10,3 +10,7 @@ The above plot depicts the top 5 most important features in predicting price in 
 ![shapbar](https://github.com/cipalisoc/-Core--Project-1-Revisited--Importances-and-Coefficients/blob/main/shap_bar.png?raw=true)
 
 Between the shap summary plot and the feature importances plots above, the top two features ('Item_MRP' and 'Outlet_Type_Grocery_Store') were the top two. While 'Item_Visibility' and 'Outlet_Identifier_OUT27' were common in both plots, they were not in the same order, and 'Item_Weight' was in the top 5 most important features, but was in seventh in the shap summary plot.
+
+![shapdot](https://github.com/cipalisoc/-Core--Project-1-Revisited--Importances-and-Coefficients/blob/main/shap_dot.png?raw=true)
+
+The dot plot of the shap summary above shows that 'Item_MRP', 'Outlet_Type_Grocery_Store', and 'Outlet_Identifier_OUT27' were the top three features that explained price prediction the most. For 'Item_MRP' the higher this value, the more it added to the predicted price. For 'Outlet_Type_Grocery_Store', the higher this value, the more it decreased price in price prediction. For 'Outlet_Identifier_OUT27', the higher this value, the more it added to price in price prediction.
